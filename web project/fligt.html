@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+<style>
+.contact-section {
+max-width: 50px;
+margin: auto;
+background-color: #f2f2f2;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 2px 5px rgba(0,0,0,0,1);
+}
+h2 {
+text-align: center;
+color: #333;
+}
+input{
+  text-align: center;
+  hover:tomato;
+}
+form {
+display: flex;
+flex-direction:column;
+}
+
+label {
+margin-top: 10px;
+font-weight: bold;
+}
+input,
+textarea {
+padding: 15px;
+margin-bottom: 10px;
+border-radius: 3px;
+border: 1px solid #ccc;
+
+}
+input [type="submit"]:hover {
+background-color: #45a049;
+}
+.contact-section {
+max-width: 500px;
+margin: auto;
+background-color: greenyellow; / * Set the desired background color */
+padding: 20px;
+border-radius: 5px;
+box-shadow: 2px 5px rgba(0,
+0, 0, 0.l);
+}
+input[type="submit"] {
+  background-color: greenyellow;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.sn{
+  background: white;
+  border: 2px solid red;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}
+.menu{
+  padding-top: 60px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  background: yellow;
+  height: 64px;
+}
+a{
+  padding: 29px;
+  height: 18px;
+}
+a:hover{
+  color: white;
+  background: #990099;
+  height: 19px;
+  border-radius: 90%;
+}
+body{
+  border: 3px solid;
+  background-color: #992199;
+}
+li{
+  display: inline-block;
+ padding: 20PX;
+  padding: 20px;
+  padding-left: 18PX;
+}
+</style>
+</head>
+<body>
+  <div style="background:#115499;height: 60px;position: fixed;width: 100%;">
+   <marquee style="color: white;padding-top: 18px;font-size: 25px;">TOUR AND TRAVEL</marquee> 
+  </div>
+  <div class="main">
+<div class="navbar">
+<div class="icon">
+</div>
+<div class="menu">
+  <div class="sn">
+<ul>
+<li><a href="home.html">HOME</a></li>
+<li><a href="fligt.html">fligt booking</a></li>
+<li><a href="hotel.html">hotel booking</a></li>
+<li><a href="car.html">car booking</a></li>
+<li><a href="tour.html"> tour booking</a></li>
+
+</ul>
+</div>
+</div>
+  <div class="contact-section">
+  <form id="contact-form">
+<label style="background:#215699;"><h2 style="color:white;">flighit booging</h2></label>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone number">phone number:</label>
+    <input type="phone number" id="phone number" name="phone number" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+    <input type="submit"value="submit"style="background: #129932;color: white;">
+  </form>
+</div>
+</body>
+</html>
